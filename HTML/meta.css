@@ -1,0 +1,6 @@
+.meta {
+    background-color: beige;
+    /* box-sizing: border-box; */
+    box-decoration-break: slice;
+    border-style: dotted;
+}
