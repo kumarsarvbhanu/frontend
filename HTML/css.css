@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    width: 70%;
+}
+
+
+/* _slector_{
+property: value;
+property2: value2;
+} */
+
+footer {
+    margin-top: 10vh;
+    color: grey;
+}
+
+#specified_p {
+    background-color: yellow;
+}
+
+#specified_div {
+    background-color: red;
+}

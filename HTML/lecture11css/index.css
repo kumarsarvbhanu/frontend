@@ -1,0 +1,67 @@
+p:hover {
+    background-color: aqua;
+}
+
+a:link {
+    color: rgb(209, 88, 88);
+}
+
+a:visited {
+    color: green;
+}
+
+
+/* .second-section {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+section:nth-child(2n+1) {
+    background-color: rgb(224, 224, 185);
+}
+
+li:nth-child(-3n+10) {
+    /* An+B: A is the step size and B is the offset */
+    background-color: yellow;
+}
+
+section:nth-child(odd) {
+    color: grey;
+}
+
+button:active {
+    background-color: aquamarine;
+    border: 1px darkblue dotted;
+    border-radius: 10px;
+}
+
+p:active {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*:focus {
+    border: red solid 5px;
+}
+
+p:nth-of-type(5) {
+    background-color: silver;
+}
+
+li:marker {
+    font-weight: bold;
+}
+
+li::before {
+    content: "Hello!";
+}
+
+li::before {
+    content: ">>>";
+}
+
+section::first-letter {
+    font-size: 50px;
+}
+
+p:first-line {
+    font-size: large;
+}
