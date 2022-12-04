@@ -1,0 +1,25 @@
+.app-bar {
+    margin: 2px 10px;
+    grid-area: ;
+}
+
+.site-logo {
+    width: 100%;
+}
+
+.content {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: minmax(50px, auto);
+    grid-template-areas: ;
+}
+
+.table-of-contents {}
+
+.nav-pane {}
+
+.image-box {
+    border: 1px solid grey;
+    background-color: beige;
+}
