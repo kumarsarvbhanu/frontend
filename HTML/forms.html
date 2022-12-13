@@ -10,10 +10,32 @@
 
 <body>
     <h1>HTML forms Introduction</h1>
-    <form action="https://twitter.com/i/flow/login" method="post">
-        <input type="text" name="color " placeholder="username">
-        <input type="password" name="password " placeholder="password">
-        <input type="submit" value="Submit">
+    <form method="get">
+        <!-- <input type="text" name="color " placeholder="username"><br>
+        <input type="password" name="password " placeholder="password"><br> -->
+        <!-- <input type="submit" value="Submit"><br> -->
+        <label for="name">
+            username
+        </label>
+        <input type="text" value="name" />
+        <br>
+        <label for="password">
+            password
+        </label>
+        <input type="password" value="password" />
+        <br>
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>noub</option>
+        </select>
+        <br>
+        <label for="date">
+           DOB
+        </label>
+        <input type="date" value="date" />
+        <br>
+        <input type="submit" />
     </form>
     <a href="https://www.youtube.com" target="_blank"> hello</a>
 </body>

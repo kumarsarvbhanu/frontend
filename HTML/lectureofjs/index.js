@@ -23,5 +23,5 @@ let multiplyBy3 = function(i) {
 let multiplyBy5 = (i) => {
     return i * 5;
 }
-let
-let multiplyBy7 = function(i)
+
+// let multiplyBy7 = function(i) =>

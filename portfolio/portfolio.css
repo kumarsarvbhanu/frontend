@@ -35,6 +35,16 @@
     color: aqua;
 }
 
+.linkedin {
+    margin-left: 70px;
+    color: blue;
+}
+
+.git {
+    margin-left: 70px;
+    color: blueviolet;
+}
+
 .icon {
     margin-left: 50px;
     font-size: 40px;
