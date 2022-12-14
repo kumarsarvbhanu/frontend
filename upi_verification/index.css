@@ -39,7 +39,7 @@ body {
     margin: 2%;
     text-align: center;
     font-weight: 300;
-    -moz-appearance: textfield;
+    /* -moz-appearance: textfield; */
 }
 
 .code::-webkit-outer-spin-button,

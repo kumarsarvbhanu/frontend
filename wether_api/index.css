@@ -1,0 +1,8 @@
+thead>tr>th>:nth-child(1) {
+    width: 50%;
+}
+
+
+/* th {
+    width: 20%;
+} */
