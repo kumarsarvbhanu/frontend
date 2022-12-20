@@ -1,0 +1,84 @@
+h1 {
+    text-shadow: 1px 3px 1px blue, -3px 1px 2px red;
+    box-shadow: 2px 0px 1px orange;
+    padding: 5px;
+    border: 3px dashed yellow;
+}
+
+section:first-child {
+    border: solid 10px blue;
+    padding: 2px 3px 4px 3px;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin: 10px 0px;
+    margin-right: 10px;
+    margin-right: 20px;
+}
+
+section:nth-child(2) {
+    margin: 20px 0px;
+    height: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(30deg, red, violet, indigo, blue);
+}
+
+section:nth-child(3) {
+    margin: 4px 5px 6px 0px;
+}
+
+section:last-of-type {
+    height: 200px;
+    width: 250px;
+    background: repeating-linear-gradient(to left, green, red, cyan 10%, violet 23%);
+}
+
+#parent {
+    width: 80vw;
+    height: 50vh;
+    padding: 20px;
+    /* margin: 20px; */
+    /* background-color: red; */
+    background-color: silver;
+}
+
+#child {
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(31, 184, 184); */
+    /* display: flex; */
+    /* border-radius: 50%; */
+    /* background-image: radial-gradient(closest-side at 20%, darkblue, pink, #f1f1 50%); */
+    background-image: repeating-radial-gradient( yellow 10%, pink 30%, #f1f1 20%);
+}
+
+#left,
+#right {
+    margin: 2px 30px;
+    width: 50%;
+    height: 40%;
+    background-color: blue;
+}
+
+#div2 {
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(from 60deg, red, yellow);
+}
+
+button {
+    margin: 10px;
+    padding: 2px 3px;
+    background-image: linear-gradient(to right, yellow 70%);
+    border-radius: 3px;
+    border: 1px solid green;
+    color: silver;
+}
+
+button:active {
+    box-shadow: 2px 1px 1px lightgray;
+}
+
+button:hover {
+    border-radius: 2px;
+    text-shadow: 0px 0px 2px greenyellow;
+}

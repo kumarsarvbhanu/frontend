@@ -1,0 +1,77 @@
+p:hover {
+    background-color: yellow;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+.second_section:hover {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li:nth-child(6) {
+    background-color: yellowgreen;
+}
+
+section:nth-child(odd) {
+    color: orange;
+}
+
+
+/* li:nth-child(odd) {
+    color: orange;
+} */
+
+button:hover {
+    background-color: wheat;
+    color: seagreen;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: rgb(99, 67, 9);
+    color: rgb(4, 4, 4);
+    border-radius: 20px;
+}
+
+p:active {
+    font-family: cursive;
+}
+
+*:focus {
+    border: aquamarine solid 10px;
+}
+
+section:not(.second-section) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p:nth-of-type(1) {
+    background-color: firebrick;
+}
+
+li::before {
+    content: ">>>>>>bhanu    ";
+}
+
+section::first-line {
+    font-size: 50px;
+}
+
+#image {
+    height: 800px;
+    width: 700px;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0c/bb/a3/97/predator-ride-in-the.jpg);
+    background-size: cover;
+    border: 10px red dashed;
+    padding: 30px;
+    margin: 20px;
+    background-position: center;
+    background-clip: border-box;
+}
