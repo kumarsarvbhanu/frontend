@@ -1,0 +1,41 @@
+body {
+    width: 80vw;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 600px) {
+    .section-image {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .section-image {
+        height: 200px;
+    }
+}
+
+@media print {
+    .section-image {
+        height: 200px;
+        border: 2px solid red;
+        color: navy;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        margin: 10px;
+    }
+    .section-image {
+        height: 300px;
+    }
+}
+
+@media (orientation: portrait) {
+    p {
+        border: 3px solid yellow;
+    }
+}
