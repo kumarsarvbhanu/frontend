@@ -672,33 +672,120 @@
 // method
 
 // function inside object
+// function personInfo(){
+//     console.log(`person name is ${this.firstName}`)
+// }
 // const person = {
 //     firstName : "bhanu",
 //     age: 23,
-//     about: function(){
-//         console.log(`person name is ${}`)
-//     }
+//     about:personInfo   
+// }
+// const person1 = {
+//     firstName : "4bhanu",
+//     age: 231,
+//     about:personInfo   
+// }
+// const person3 = {
+//     firstName : "3bhanu",
+//     age: 234,
+//     about:personInfo   
+// }
+// const person2 = {
+//     firstName : "bhanu2",
+//     age: 232,
+//     about:personInfo   
+// }
+// person2.about();
+// person1.about();
+// person3.about();
+// personInfo();
+
+// console.log(window);
+
+
+// function myFunc
+
+// console.log(this);
+
+// call apply bind
+// function about(hobby, favm){
+//     console.log(this.firstName, this.age, hobby, favm)
+// }
+// const person2 = {
+//     firstName : "bhanu2",
+//     age: 232,
+       
+// }
+// const person1 = {
+//     firstName : "bha2",
+//     age: 23,
+//     // about:function(){
+//     //     console.log()
+//     // }   
 // }
 
-// const a = `reject`;
-// console.log(typeof a);
+// about.call(person2, "gutar", "happy");
 
 
-function test1(){
-    return new Promise(function(resolve){setTimeout(resolve, 1000, 1)})
-}
-function test2(){
-    return new Promise(function(resolve){setTimeout(resolve, 10, 2)})
-}
-
-async function all(){
-    var res = Promise.all([test1(), test2()])
-}
-console.log(res);
+// apply  
 
 
+// function about(hobby, favm){
+//     console.log(this.firstName, this.age, hobby, favm)
+// }
+// const person2 = {
+//     firstName : "bhanu2",
+//     age: 232,
+       
+// }
+// const person1 = {
+//     firstName : "bha2",
+//     age: 23,
+//     // about:function(){
+//     //     console.log()
+//     // }   
+// }
+
+// about.apply(person2, ["gutar", "happy"]);
 
 
+// bind
+
+// function about(hobby, favm){
+//     console.log(this.firstName, this.age, hobby, favm)
+// }
+// const person2 = {
+//     firstName : "bhanu2",
+//     age: 232,
+       
+// }
+// const person1 = {
+//     firstName : "bha2",
+//     age: 23,
+//     // about:function(){
+//     //     console.log()
+//     // }   
+// }
+
+// const ans =about.bind(person2, "gutar", "happy");
+// ans();
+
+// const person1 = {
+//         firstName : "bha2",
+//         age: 23,
+//         about: ()=>{
+//             console.log(this.firstName, this.age)
+//         }   
+//     }
+//     person1.about();
+// const person2 = {
+//         firstName : "bha2",
+//         age: 23,
+//         about (){
+//             console.log(this.firstName, this.age)
+//         }   
+//     }
+//     person2.about();
 
 
 
