@@ -101,6 +101,37 @@
 
 
 
-console.log(fund);
-let fund = "bhanu00";
-console.log(fund);
+// console.log(fund);
+// let fund = "bhanu00";
+// console.log(fund);
+
+
+// function myFunc(power) {
+//     return function (num) {
+//         return num ** power;
+//     }
+// }
+
+// // const myFunc = (power) => (num) => num ** power;
+// const cube = myFunc(3);
+// const ans = cube(4);
+// console.log(ans);
+
+function myfunc() {
+    let counter = 0;
+    return function () {
+        if (counter < 1) {
+            console.log("called");
+            counter++;
+        }
+        else {
+            console.log("called again");
+        }
+    }
+}
+
+const myfun = myfunc();
+myfun();
+
+
+

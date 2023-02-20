@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: relative;
+  min-height: 60vh;
+  background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.bg-dark {
+  background: blue;
+  color: cadetblue;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.headLine {
+  font-size: 25px;
+  text-align: center;
+  /* align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* justify-content: right; */
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-headline {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+.todo-section {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.form-todo {
+  /* border: 2px solid blue; */
+  min-height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.todo-list li {
+  padding: 0.7rem;
+  background: #444;
+  color: cyan;
+  margin-top: 1rem;
+}
+.form-todo input {
+  min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+  width: 78%;
+
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form-todo input[type="submit"] {
+  width: 20%;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  /* border-radius: 8px; */
+  box-shadow: 0 8px 16px 0 rgba(244, 6, 6, 0.2);
+}
+
+.form-todo input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+}
+.section-signup {
+  margin: 5rem auto;
+  background: rgb(230, 227, 227);
+  align-items: center;
+  padding: 1rem;
+}
+#head2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.signupform {
+  height: 80vh;
+  width: 95%;
+  max-width: 800px;
+  text-align: left;
+  margin: auto;
+  /* background: rgb(26,42,76); */
+}
+
+.signupform label {
+  color: rgb(1, 1, 1);
+  font-weight: 700;
+  display: block;
+  font-size: 20px;
+}
+.signupform input {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.formgroup {
+  margin-top: 1rem;
+}
+
+.signupform textarea {
+  width: 100%;
+}
+
+#signup-btn {
+  background: rgb(44, 55, 63);
+  color: white;
+  display: block;
+  width: 30%;
+  padding: 1rem 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}

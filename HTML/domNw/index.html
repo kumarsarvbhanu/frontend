@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>My Web</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#">ToDo</a></li>
+                <li class="nav-item"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headLine">
+            <h2 class="extra">Manage your task</h2>
+            <button class="btn btn-headline">Learn More...</button>
+        </div>
+    </header>
+    <section̥ō class="todo-section container">
+        <h2>Your plan for today ?</h2>
+        <form class="form-todo">
+             <input type="text" name="" id="" placeholder="Add Todo">
+             <input type="submit" value="Add Todo">
+     </form>
+     <ul class="todo-list">
+        <li class="first-todo">todo 1</li>
+     </ul>
+    </section>
+    
+     <section class="section-signup container">
+         <h2 id="head2">Sign Up</h2>
+         <form class="signupform">
+            <div class="form-group">
+                <label for="username">Username</label>
+           <input type="text" name="username" id="username" required>
+        </div>
+            <div class="form-group">
+                <label for="password">password</label>
+           <input type="password" name="password" id="password" required>
+        </div>
+             <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+           <input type="password" name="confirmPassword" id="confirmPassword" required>
+        </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+           <input type="text" name="phone" id="phone" required>
+        </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+           <input type="email" name="email" id="email" required>
+        </div>
+            <div class="form-group">
+                <label for="about">About Yourself</label>
+           <textarea name="about" id="about" cols="30" rows="10" placeholder="Write about Yourself" ></textarea>
+        </div>
+        <input type="submit" id="signup-btn">
+    </form>
+    </section>
+    <p id="obj"></p>
+</body>
+</html>
