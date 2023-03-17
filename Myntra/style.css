@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.left img {
+  width: 53px;
+  height: 33px;
+}
+
+.container {
+  padding: 0 10vw;
+  /* background: red; */
+  margin: auto;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+/* .flex ul {
+  display: flex;
+  /* grid-template-columns: auto; 
+  flex-direction: row;
+} */
+.section1 {
+  background: grey;
+}
